@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    font-family:Roboto;
+}
+
+.mainbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position:sticky;  
+}
+
+.left_icon img{
+    width: 14%;
+    height: 40px;
+    margin-left: 7%;
+    margin-top: 1%;
+    float: left;
+} 
+.right_icon{
+    padding-right: 5%; 
+    margin-left: 50%;
+    padding-top: 2%;
+
+   
+
+}
+.right_icon2 a{
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+
+
+
+.mainbar{
+        display: block;
+        width: 100%;
+    } 
+
+
+.icone{
+    height: 60px;
+    width:10%;
+    top: 20px;
+    right: 90%;
+    position: absolute;
+    margin-top: 8%;
+}
+
+.content{
+    width: 100%;
+    display: flex;  
+}
+
+.firstcont{
+    width: 34%;
+    padding-top: 1%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.secondcont{ 
+    text-align: center;
+    width: 34%;
+    background-color:rgb(207, 202, 202);
+    padding-top: 2%;
+    font-size: 21px;
+}
+
+.thirdcont{
+    width: 34%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.heading h2{
+    font: 34px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+hr{
+    margin-left: 48%;
+    margin-right: 45%;
+    margin-top: 1%;
+}
+
+.teammates_raw1{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.abishekh{
+    width: 33%;
+}
+
+.abishekh_img{
+    width: 28%;
+    margin-left: 38%;
+    border-top-left-radius: 45%; 
+    border-bottom-right-radius:35%;
+}
+
+.abishekh_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+.rishabh{
+    width: 33%;
+}
+
+.rishabh_img{
+    width: 28%;
+    margin-left:38%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius:35%;
+}
+.rishabh_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+
+.surbhi{
+    width: 34%;
+}
+.surbhi_img{
+    width: 28%;
+    margin-left: 38%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius:35%;
+}
+.surbhi_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+h3{
+    margin-left:34%; 
+    margin-top: 3%;
+}
+
+span{
+    margin-left: 38%;
+}
+p{
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 3%;
+    text-align: center;
+}
+.social_links{
+    height: 10px;
+    text-decoration: none;
+    background-color: red;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10%;
+}
+.social_links:hover{
+    cursor: pointer;
+    height: 45px;
+}
+.social_links a{
+    padding-left: 48%;
+    font-size: 20px;
+    color: white;
+    margin-top: 2%;
+} 
+
+
+.teammates_raw2{
+    width: 100%;
+    /* margin-top: 8%; */
+    display: flex;
+    margin-left: 0;
+    margin-top: 5%;
+}
+.alisha{
+    width: 34%;
+}
+.alisha_img{
+    width: 28%;
+    margin-left: 38%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius:35%;
+
+}
+.alisha_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+.nitesh{
+    width: 33%;
+
+}
+.nitesh_img{
+    width: 28%;
+    margin-left: 38%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius:35%;
+    
+
+}
+.nitesh_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+
+.pralhad{
+    width: 34%;
+}
+.pralhad_img{
+  
+    width: 28%;
+    margin-left: 38%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius:35%;
+}
+.pralhad_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+.anuradha{
+    width: 33%;
+
+}
+
+.anuradha_img{
+   margin-top: 20%;
+    width: 28%;
+    margin-left: 38%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius:35%;
+}
+.anuradha_img:hover{
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: solid 2px red;
+} 
+
+.contant_2{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+}
+.cont_part1{
+    width: 33%;
+   
+    background-color:red;
+    padding-right: 2%; 
+    padding-left: 2%;
+    color: white;
+   
+}
+.head_2{
+    padding-top: 8%;
+    margin-left: 12%;
+}
+.span_cl{
+font-size: 30px;
+
+} 
+.secong_para{
+    margin-left:10%;
+    margin-top: 10%;
+} 
+
+.cont_part3{
+    width:33%;
+    height: 280px;
+    background-color: pink;
+    float: right;
+    padding-top: 2%;
+   
+}
+.h1_tag{
+    text-align: center;
+    margin-top: 5%;
+}
+.cont_part3 h2{
+    padding-left: 20%;
+}
+
+.image_raw{
+    margin-top: 5%; 
+    height: 200px;
+   
+    padding-left:300px; 
+    display: flex;
+  
+}
+.im{
+    float: left;
+    
+}
+.first_img{
+    height: 100px;
+    width:20%;
+     
+}
+.second_img img{
+    margin-left:30%;
+}
+.third_img img{
+    margin-left: 35%;
+
+}
+.upper_div{
+    width:100%;
+}
+.quartz_div{
+    margin-left:40%;
+}
+.h2_class{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+.last_imageraw{
+    margin-top: 5%;
+    height:100px;
+    display: flex;
+    margin-left: 15%; 
+}
+.image_raw1{
+    float: left;
+}
+.image_raw2{
+    margin-left: 5%;
+}
+.image_raw3{
+    margin-left: 5%;
+}
+.image_rawlast{
+    margin-top: 5%;
+    height: 100px;
+    display: flex;
+    margin-left: 30%;
+
+}
+.dunnhumby_logo{
+    margin-left: 5%;
+}
+
+.lastdiv{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 10%;
+    /* padding-left: 3%; */
+}
+.last_content{
+    width: 65%;
+}
+
+.lastsecond{
+    width: 50%;
+    text-align: center;
+}
+ 
+.lastsecond1{
+    background-color: rgb(180, 175, 175);
+    color: white;
+    height: 85px;
+    width: 70px;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 56%;
+    padding-right: 8%;
+}
+
+.lastsecond i{
+    margin-top: 35%;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 8%;
+} 
+.bold{
+    color: brown;
+}
+.footer{
+    height: 40px;
+    background-color: rgb(83, 81, 81);
+}
+.footer p{
+    padding-right: 15%;
+    color:#ccc;
+    margin-top: 3%;
+
+}
+.abishekh_img:hover{
+    color: red;
+}
+.bold{
+    color: rgb(199, 38, 38);
+
+}
+@media only screen and (max-width: 700px) {
+    .content{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+    }
+  
+    .firstcont{
+        width: 100%;
+    }
+    .secondcont{
+        width: 100%;
+
+    }
+    .thirdcont{
+        width: 100%;  
+    } 
+    .teammates_raw1{
+        flex-direction: column;
+    }
+    .teammates_raw2{
+        flex-direction: column;
+
+    }
+
+    .right_icon a{
+        text-align: center;
+    }
+    .contant_2{
+        flex-direction: column;
+    }
+   
+  } 
